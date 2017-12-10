@@ -1,0 +1,76 @@
+/*:
+ ## Personal Meme
+ 
+ Copy the functions you made in the previous exercise to this page if you like or write them out again for practice. Or even make a whole new set.
+ 
+ Inside one of the functions, make changes that make the whole text mean something different, or make it funnier. You could change a name to your name or a friend’s, change a word to something else that rhymes, or just play around.
+*/
+let person = "Anny"
+
+let stringOne = "Hey \(person) Do you know the reasons why We look up to the sky?"
+let stringTwo = "Hey \(person) Do you look at us and laugh When we hold on to the past? Hey angel"
+let stringThree = "Hey \(person) Tell me, do you ever try To come to the other side?"
+let stringFour = "Hey \(person) Tell me, do you ever cry When we waste away our lives?"
+
+let string_chorus = "   Oh I wish I could be more like you Do you wish you could be more like me? \n   Oh I wish I could be more like you Do you wish you could be more like me?"
+
+
+let sign = "-------~-------"
+func signOfDivision() {
+    print(sign)
+}
+
+func partOne() {
+    print(stringOne)
+    print(stringTwo)
+}
+
+func chorus() {
+    signOfDivision()
+    print(string_chorus)
+    signOfDivision()
+}
+
+func partTwo() {
+    print(stringThree)
+    print(stringFour)
+}
+
+
+func theEntireSong() {
+    partOne()
+    chorus()
+    partTwo()
+    chorus()
+}
+
+theEntireSong()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*:
+ 
+ _Copyright © 2017 Apple Inc._
+ 
+ _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+ 
+ _The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+ 
+ _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+ */
+//: [Previous](@previous)  |  page 12 of 12
