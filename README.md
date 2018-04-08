@@ -1,3 +1,1 @@
-
-Conflict??? Hard but very useful and important time begins!
-Hard but very useful and important time begins!
+@I know how to resolve merge conflicts now.
