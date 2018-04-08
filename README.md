@@ -1,1 +1,1 @@
-@I can resolve merge conflicts now
+@I do can resolve merge conflicts now
